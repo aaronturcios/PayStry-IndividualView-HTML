@@ -1,9 +1,9 @@
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
   }
-  
+
   body {
-    font-family: "Open Sans",
+    font-family: sans-serif,
     sans-serif;
     font-size: 20px;
     color: #444;
@@ -11,8 +11,7 @@
     line-height: 1.5;
   }
   
-  nav,
-  footer {
+  nav {
     padding: 1% 0;
     background-color: #aaa;
   }
@@ -28,17 +27,20 @@
   header {
     padding: 45px 15px;
   }
+
   
-  section {
-    min-height: 200px;
+ section {
+   min-height: 100px;
     padding: 30px 15px;
     background-color: #bbb;
-  }
+}
   
   section:nth-child(even) {
     background-color: #ddd;
-  }
+  }  
+
   
+
   p {
     margin: 0 auto;
     max-width: 650px;
@@ -47,3 +49,4 @@
   p + p {
     margin-top: 15px;
   }
+  
